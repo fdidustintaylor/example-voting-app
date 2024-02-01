@@ -54,7 +54,7 @@ jobs:
           platforms: linux/amd64,linux/arm64,linux/arm/v7
 
       - name: Find comment for image tags
-        uses: peter-evans/find-comment@v3
+        uses: peter-evans/find-comment@v3.0.0
         if: github.event_name == 'pull_request'
         id: fc
         with:
