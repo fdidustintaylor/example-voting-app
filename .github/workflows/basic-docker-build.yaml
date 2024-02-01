@@ -24,4 +24,4 @@ jobs:
           push: ${{ github.event_name != 'pull_request' }}
           tags: fdidustintaylor/basic-docker-build:latest
           cache-from: type=gha
-          cache-to: type=gha,mode=max          
+          cache-to: type=gha,mode=max 
