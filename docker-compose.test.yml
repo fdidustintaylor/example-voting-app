@@ -12,7 +12,7 @@ services:
 #    healthcheck:
 #      test: /healthchecks/postgres-healthcheck
 #      interval: "20s"
-#  sut:
+sut:
     image: "${TESTING_IMAGE}"
     depends_on:
       allhands22:
